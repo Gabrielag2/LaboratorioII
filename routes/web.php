@@ -15,7 +15,7 @@ use App\Http\livewire\Estudiantes;
 */
 
 Route::get('/', function () {
-    return view('auth.login ');
+    return view('welcome');
 });
 
 Route::middleware(['auth:sanctum','verified'])->group(function(){ 
